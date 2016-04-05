@@ -6,7 +6,7 @@
 	<div class="col-sm-5 banner-equipamentos banner-equipamentos-box">
 		<div class="banner-equipamentos-text">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt necessitatibus tempora.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ducimus accusantium qui repellendus officia quod perferendis vel tenetur, veritatis eaque maiores, delectus reiciendis laboriosam veniam in ipsum nam quaerat quas!</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ducimus accusantium qui repellendus officia quod perferendis vel tenetur, veritatis eaque maiores, delectus reiciendis laboriosam veniam in ipsum nam quaerat!</p>
 			<a href="#">Saiba mais</a>
 		</div>	
 	</div>

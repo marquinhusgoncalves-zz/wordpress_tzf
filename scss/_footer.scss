@@ -1,0 +1,91 @@
+/* F O O T E R */
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+  width: 100%;
+  min-height: 250px;
+  background-color: $color2;
+  color: #fff;
+}
+
+.logo-footer {
+  width: 180px;
+}
+
+.footer-end {
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.footer-tel {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.footer-mail {
+  color: $color3;
+  font-size: 25px;
+  text-decoration: none;
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.redes-sociais a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-lg {
+  font-size: 1.8em;
+}
+
+.facebook {
+  color: $facebook;
+}
+
+.twitter {
+  color: $twitter;
+}
+
+.linkedin {
+  color: $linkedin;
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 60px;
+  background-color: $color3;
+  color: #fff;
+}
+
+.scroll-to-top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 5px;
+  right: 5%;
+  padding: 10px 0 0;
+  display: none;
+  z-index: 999;
+  text-align: center;
+  border-radius: 50%;
+  border: 3px solid $color6;
+  // background: $color6;
+  color: $color6;;
+  cursor: pointer;
+  -webkit-transition: background-color 0.1s linear;
+  -moz-transition: background-color 0.1s linear;
+  -o-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear;
+  &:hover {
+    color: #fff;
+    background: $color6;
+    opacity: 0.9;
+  }
+}

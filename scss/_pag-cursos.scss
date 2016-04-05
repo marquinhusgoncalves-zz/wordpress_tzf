@@ -1,0 +1,82 @@
+/*  P A G I N A - C U R S O S  */
+
+#cursosCabecalho {
+  width: 100%;
+  height: 250px;
+  background-color: #00b3e3;
+  display: table;
+  > div {
+    height: auto;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  h1 {
+    font-size: 4em;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    padding-left: 30px;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 1.4em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: white;
+  }
+}
+
+#primary {
+  padding: 10px;
+  background: white;
+}
+
+.secondary {
+  padding: 30px 35px 0 0;
+  background: #D8D8D8;
+}
+
+.widget-area aside {
+  padding-bottom: 30px;
+}
+
+.widget {
+  a {
+    color: #868282;
+    &:hover, &:active, &:focus {
+      color: black;
+    }
+  }
+  ul {
+    padding-left: 35px;
+    li {
+      list-style: none;
+      padding: 5px 0;
+      border-bottom: 1px solid #C5C5C5;
+    }
+  }
+}
+
+.widget-title {
+  font-size: 1.4em;
+  font-weight: 600;
+  margin: 0 0 0 25px;
+  padding-bottom: 14px;
+  padding-left: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1.1;
+  i {
+    font-size: .9em;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 2px;
+  }
+}
+
+.posts-navigation a {
+  color: white;
+  &:hover, &:active, &:focus {
+    color: white;
+  }
+}

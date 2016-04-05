@@ -1,0 +1,127 @@
+/*  I N D E X  */
+
+.banner-principal {
+  width: 100%;
+  min-height: 500px;
+  height: auto;
+  background: url("../tzf-theme/img/banner_index.jpg");
+  background-size: cover;
+  background-position: center;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-size: 30px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  a {
+    color: #fff;
+    background-color: $color6;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+  }
+}
+
+.box-index {
+  min-height: 350px;
+  height: auto;
+  background: #fff;
+  text-align: center;
+  margin: 60px 0;
+  > div {
+    padding: 1em 1.2em;
+  }
+  img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 45px;
+  }
+  h4 {
+    font-size: 1.4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+  }
+  p {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: $color7;
+    padding: 0 1em;
+  }
+}
+
+.box-materias {
+  background-color: $color1;
+  padding: 50px 0;
+}
+
+.materia-principal {
+  background-color: #fff;
+  min-height: 340px;
+}
+
+.materia-principal-img {
+  width: 100%;
+  height: 340px;
+}
+
+.materia-principal-text {
+  padding-left: 20px;
+  padding-right: 40px;
+  h3, p:nth-child(2) {
+    font-weight: 700;
+  }
+}
+
+.materias {
+  margin-top: 50px;
+}
+
+.materias-fundo {
+  background-color: #fff;
+  img {
+    width: 100%;
+  }
+}
+
+/* N E W S L E T T E R */
+
+.newsletter {
+  height: auto;
+  min-height: 100px;
+  background-color: $color8;
+  display: flex;
+  align-items: center;
+}
+
+.newsletter-text {
+  color: #fff;
+  font-size: 18px;
+  p {
+    margin: 0;
+    width: 170px;
+  }
+}
+
+.form-control-newsletter {
+  width: 350px !important;
+  height: 39px;
+  font-size: 18px;
+  border-radius: 0;
+  margin-right: 50px;
+}
+
+.btn-default-newsletter {
+  color: #FFF;
+  background-color: $color3;
+  border-color: $color3;
+  border-radius: 0;
+  font-size: 18px;
+  padding: 6px 50px;
+}

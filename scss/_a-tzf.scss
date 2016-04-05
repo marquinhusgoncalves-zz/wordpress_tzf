@@ -1,0 +1,43 @@
+/* A TZF */
+.a-tzf-wrap {
+	min-height: 1290px;
+	background: url("../tzf-theme/img/fundo-a-tzf.jpg");
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.a-trz-text-principal {
+	margin-bottom: 100px;
+	p {
+		text-transform: uppercase;
+		font-size: 28px;
+		max-width: 800px;
+		text-align: center;
+	}
+}
+
+.a-tzf-box-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 767px) {
+    	flex-direction: row;
+    	justify-content: space-around;
+    }
+    img {
+    	margin: 15px 0;
+    }
+}
+.a-tzf-text {
+	font-size: 20px;
+    width: 80%;
+    p {
+    	margin: 30px 0;
+    }
+}

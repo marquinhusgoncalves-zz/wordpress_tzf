@@ -1,0 +1,17 @@
+/* D E S E N V O L V I M E N T O */
+.desenvolvimento-box-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 40px 0;
+}
+.desenvolvimento-text {
+	p:nth-child(1) {
+		font-size: 20px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+	p:nth-child(2) {
+		font-weight: 700;
+	}
+}

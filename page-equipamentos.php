@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 <div class="row">
 	<div class="col-sm-7 banner-equipamentos banner-equipamentos-img">
-		
 	</div>
 	<div class="col-sm-5 banner-equipamentos banner-equipamentos-box">
 		<div class="banner-equipamentos-text">
@@ -11,10 +10,8 @@
 		</div>	
 	</div>
 </div>
-
 <nav class="container"><?php wp_nav_menu(array('theme_location' => 'second')); ?></nav> 
 <div id="ajax-content"></div>
-
 <div class="newsletter">
 	<div class="container">
 		<div class="newsletter-text col-sm-offset-1 col-sm-3">

@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="box-index">
 			<div class="col-sm-3">
-				<img src="<?php bloginfo('stylesheet_directory');?>//img/desenvolvimento.png" alt="Imagem Desenvolvimento">
+				<img src="<?php bloginfo('stylesheet_directory');?>/img/desenvolvimento.png" alt="Imagem Desenvolvimento">
 				<h4>Desenvolvimento</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nostrum quibusdam, est iste nihil</p>
 			</div>

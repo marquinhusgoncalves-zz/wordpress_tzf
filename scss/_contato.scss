@@ -1,0 +1,20 @@
+/* C O N T A T O */
+.banner-contato {
+	background: url("../tzf-theme/img/banner-contato.jpg");
+  	background-size: cover;
+  	background-position: center;
+  	min-height: 500px;
+}
+.box-contato {
+	padding: 50px 0;
+	form {
+		text-align: right;
+	}
+}
+.form-control {
+	border-radius: 0;
+	height: 39px;
+}
+#map-canvas {
+	min-height: 500px;
+}

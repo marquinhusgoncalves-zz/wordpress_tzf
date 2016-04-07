@@ -1,0 +1,25 @@
+/* C U R S O S */
+.cursos-fundo {
+	background: $color1;
+	margin: 30px 0;
+	height: 100%;
+	img {
+    	width: 100%;
+	}
+	a {
+		font-size: 14px;
+	    text-transform: uppercase;
+	    background: $color3;
+	    color: #fff;
+	    padding: 8px;
+	    display: block;
+	    width: 90px;
+	    margin: 15px auto;
+	    text-align: center;
+	    &:hover {
+	    	background: #fff;
+	    	color: $color3;
+	    	text-decoration: none;
+	    }
+	}
+}

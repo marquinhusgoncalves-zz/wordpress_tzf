@@ -23,6 +23,11 @@ function theme_scripts() {
 		// Bootstrap
 		wp_register_script('bootstrap-scripts', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', array('jquery'), null, true);
 		wp_enqueue_script('bootstrap-scripts');
+		// Google Maps
+		wp_register_script('google-scripts', 'http://maps.googleapis.com/maps/api/js?v=3.exp');
+		wp_enqueue_script('google-scripts');
+		wp_register_script('google-location-scripts', get_stylesheet_directory_uri() . '/js/google-maps.js');
+		wp_enqueue_script('google-location-scripts');
 }
 add_action('wp_enqueue_scripts', 'theme_scripts' );
 

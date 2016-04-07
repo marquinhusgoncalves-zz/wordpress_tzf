@@ -458,6 +458,57 @@ header nav ul li ul {
   font-weight: 700;
 }
 
+/* Q U A L I D A D E */
+/* C U R S O S */
+.cursos-fundo {
+  background: #f0f0f0;
+  margin: 30px 0;
+  height: 100%;
+}
+.cursos-fundo img {
+  width: 100%;
+}
+.cursos-fundo a {
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #00B2E2;
+  color: #fff;
+  padding: 8px;
+  display: block;
+  width: 90px;
+  margin: 15px auto;
+  text-align: center;
+}
+.cursos-fundo a:hover {
+  background: #fff;
+  color: #00B2E2;
+  text-decoration: none;
+}
+
+/* C O N T A T O */
+.banner-contato {
+  background: url("../tzf-theme/img/banner-contato.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+
+.box-contato {
+  padding: 50px 0;
+}
+.box-contato form {
+  text-align: right;
+}
+
+.form-control {
+  border-radius: 0;
+  height: 39px;
+}
+
+#map-canvas {
+  min-height: 500px;
+}
+
 /* F O O T E R */
 .footer-info {
   display: -webkit-flex;
@@ -527,7 +578,7 @@ header nav ul li ul {
           align-items: center;
   width: 100%;
   min-height: 60px;
-  background-color: #00B2E2;
+  background: #00B2E2;
   color: #fff;
 }
 

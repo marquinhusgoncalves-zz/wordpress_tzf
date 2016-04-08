@@ -39,7 +39,6 @@ $(document).ready(function() {
 // Essa função troca cores de alguns elementos dependendo da página
 $(document).ready(function() {
 	var elem = document.getElementById("desenvolvimento");
-	// var elem2 = document.getElementsByClassName("rodape")[0].style.background = "red";
 	if (elem !== null && elem !== undefined) {    
     var elem2 = document.getElementsByClassName("rodape");
     if (elem2 !== null && elem2 !== undefined && elem2.length > 0) {

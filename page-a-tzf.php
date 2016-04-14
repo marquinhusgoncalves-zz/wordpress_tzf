@@ -7,10 +7,10 @@
 		<div class="row">
 			<div class="col-md-offset-1 col-sm-2">
 				<div class="a-tzf-box-img">
-					<img src="<?php bloginfo('stylesheet_directory');?>//img/desenvolvimento.png" alt="Imagem Desenvolvimento">
-					<img src="<?php bloginfo('stylesheet_directory');?>/img/qualidade.png" alt="Imagem Qualidade">
-					<img src="<?php bloginfo('stylesheet_directory');?>/img/treinamento.png" alt="Imagem Treinamento">
-					<img src="<?php bloginfo('stylesheet_directory');?>/img/equipamentos.png" alt="Imagem Equipamentos">
+					<img src="<?php bloginfo('stylesheet_directory');?>/img/icon-home-desenvolvimento.png" alt="Imagem Desenvolvimento">
+					<img src="<?php bloginfo('stylesheet_directory');?>/img/icon-home-qualidade.png" alt="Imagem Qualidade">
+					<img src="<?php bloginfo('stylesheet_directory');?>/img/icon-home-treinamento.png" alt="Imagem Treinamento">
+					<img src="<?php bloginfo('stylesheet_directory');?>/img/icon-home-equipamentos.png" alt="Imagem Equipamentos">
 				</div>	
 			</div>
 			<div class="col-sm-9">

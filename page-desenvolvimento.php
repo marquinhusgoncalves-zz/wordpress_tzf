@@ -2,7 +2,7 @@
 <div id="desenvolvimento">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-4 desenvolvimento-box">
+			<div class="col-sm-4">
 				<div class="desenvolvimento-box-img">
 					<img src="<?php bloginfo('stylesheet_directory');?>/img/desenvolvimento1.jpg" alt="..." class="img-circle">
 				</div>

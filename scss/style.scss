@@ -8,12 +8,14 @@ Version: 1.0
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900,700);
 
 @import "_variables.scss";
+@import "_mixins.scss";
 @import "_header.scss";
 @import "_index.scss";
 @import "_a-tzf.scss";
 @import "_equipamentos.scss";
 @import "_desenvolvimento.scss";
 @import "_qualidade.scss";
+@import "_cursos-e-treinamentos.scss";
 @import "_cursos.scss";
 @import "_contato.scss";
 @import "_footer.scss";

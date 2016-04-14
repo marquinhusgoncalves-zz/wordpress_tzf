@@ -1,3 +1,3 @@
 <div class="container">
-<h1>linha-ftir</h1>
+<h1>Linha-FTIR</h1>
 </div>

@@ -1,9 +1,7 @@
 /*  I N D E X  */
 
 .banner-principal {
-  width: 100%;
   min-height: 500px;
-  height: auto;
   background: url("../tzf-theme/img/banner_index.jpg");
   background-size: cover;
   background-position: center;
@@ -38,7 +36,7 @@
     padding: 1em 1.2em;
   }
   img {
-    width: 120px;
+    // width: 120px;
     height: 120px;
     margin-bottom: 45px;
   }
@@ -49,10 +47,9 @@
     color: #000;
   }
   p {
-    font-size: 1.2em;
-    font-weight: 400;
     color: $color7;
     padding: 0 1em;
+    text-align: justify;
   }
 }
 
@@ -124,4 +121,5 @@
   border-radius: 0;
   font-size: 18px;
   padding: 6px 50px;
+  float: right;
 }

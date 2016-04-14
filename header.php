@@ -13,7 +13,7 @@
 	<header>
 		<div class="container">
 			<a href = "<?php echo esc_url( home_url( '/' ) ); ?>">
-				<img class="logo" src="<?php bloginfo('stylesheet_directory');?>/img/logo.png" alt = "TZF Consultoria Analítica">
+				<img class="logo" src="<?php bloginfo('stylesheet_directory');?>/img/logo.svg" alt = "TZF Consultoria Analítica">
 			</a>
 			<input type="checkbox" id="sidebartoggler">
 			<label class="toggle visible-xs-inline-block" for = "sidebartoggler"><i class="fa fa-bars"></i></label>

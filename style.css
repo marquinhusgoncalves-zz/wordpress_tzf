@@ -36,14 +36,14 @@ header nav a {
     margin-bottom: 27px;
   }
 }
-header nav a:hover, header nav a:focus {
+header nav a:hover, header nav a:focus, header nav a:active {
   color: #00B2E2;
   text-decoration: none;
   border-bottom: solid 3px;
   padding-bottom: 36px;
 }
 @media (max-width: 767px) {
-  header nav a:hover, header nav a:focus {
+  header nav a:hover, header nav a:focus, header nav a:active {
     border-bottom: none;
     color: #00B2E2;
   }
@@ -76,6 +76,13 @@ header nav ul li {
 header nav ul li ul {
   display: none;
   display: block !important;
+}
+
+li.current-menu-item a {
+  color: #00B2E2;
+  text-decoration: none;
+  border-bottom: solid 3px;
+  padding-bottom: 36px;
 }
 
 .nav-sidebar {
@@ -135,9 +142,7 @@ header nav ul li ul {
 
 /*  I N D E X  */
 .banner-principal {
-  width: 100%;
   min-height: 500px;
-  height: auto;
   background: url("../tzf-theme/img/banner_index.jpg");
   background-size: cover;
   background-position: center;
@@ -180,7 +185,6 @@ header nav ul li ul {
   padding: 1em 1.2em;
 }
 .box-index img {
-  width: 120px;
   height: 120px;
   margin-bottom: 45px;
 }
@@ -191,10 +195,9 @@ header nav ul li ul {
   color: #000;
 }
 .box-index p {
-  font-size: 1.2em;
-  font-weight: 400;
   color: #888;
   padding: 0 1em;
+  text-align: justify;
 }
 
 .box-materias {
@@ -268,6 +271,7 @@ header nav ul li ul {
   border-radius: 0;
   font-size: 18px;
   padding: 6px 50px;
+  float: right;
 }
 
 /* A TZF */
@@ -375,7 +379,7 @@ header nav ul li ul {
 }
 .banner-equipamentos-text a {
   color: #fff;
-  background-color: #f65097;
+  background-color: #ff9200;
   padding: 10px 20px;
   text-transform: uppercase;
   text-decoration: none;
@@ -390,21 +394,17 @@ header nav ul li ul {
   list-style: none;
   margin: 5px;
 }
-#menu-second li:hover, #menu-second li:focus, #menu-second li:link, #menu-second li:active {
-  color: #00B2E2;
-  text-decoration: none;
-}
-#menu-second li:hover a, #menu-second li:focus a, #menu-second li:link a, #menu-second li:active a {
-  color: #00B2E2;
-  text-decoration: none;
-}
-#menu-second a {
+#menu-second li a {
   font-size: 15px;
   font-weight: 700;
   color: #000;
   text-decoration: none;
   padding: 15px;
   text-transform: uppercase;
+}
+#menu-second li a:hover, #menu-second li a:focus, #menu-second li a:link, #menu-second li a:active {
+  color: #ff9200;
+  text-decoration: none;
 }
 
 .pulse {
@@ -449,6 +449,13 @@ header nav ul li ul {
   margin: 40px 0;
 }
 
+.desenvolvimento-text {
+  padding: 25px;
+  text-align: justify;
+}
+.desenvolvimento-text p {
+  margin: 20px 0;
+}
 .desenvolvimento-text p:nth-child(1) {
   font-size: 20px;
   font-weight: 700;
@@ -459,7 +466,36 @@ header nav ul li ul {
 }
 
 /* Q U A L I D A D E */
-/* C U R S O S */
+.qualidade-box-img {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 40px 0;
+}
+
+.qualidade-text {
+  padding: 25px;
+  text-align: justify;
+}
+.qualidade-text p {
+  margin: 20px 0;
+}
+.qualidade-text p:nth-child(1) {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.qualidade-text ul {
+  margin-left: -25px;
+}
+
+/* C U R S O S E T R E I N A M E N T O S*/
 .cursos-fundo {
   background: #f0f0f0;
   margin: 30px 0;
@@ -467,6 +503,15 @@ header nav ul li ul {
 }
 .cursos-fundo img {
   width: 100%;
+}
+.cursos-fundo div {
+  padding: 15px;
+}
+.cursos-fundo div p:nth-child(1) {
+  font-weight: 700;
+}
+.cursos-fundo div p {
+  min-height: 60px;
 }
 .cursos-fundo a {
   font-size: 14px;
@@ -485,6 +530,59 @@ header nav ul li ul {
   text-decoration: none;
 }
 
+/* C U R S O S */
+.banner-cursos {
+  background: url("../tzf-theme/img/banner-cursos.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  margin: 50px 0;
+}
+
+.img-and-text {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 300px;
+}
+.img-and-text img {
+  width: 200px;
+}
+.img-and-text p {
+  font-size: 30px;
+  margin-left: 40px;
+  color: #fff;
+}
+
+.cursos-box {
+  margin: 50px 0;
+  border-bottom: 2px solid #545759;
+}
+
+.cursos-conteudo li {
+  padding-bottom: 10px;
+}
+
+.cursos-informacao td {
+  padding-bottom: 10px;
+}
+.cursos-informacao span {
+  margin-left: 40px;
+}
+
+.cursos-formulario {
+  margin-bottom: 50px;
+}
+.cursos-formulario p {
+  font-size: 30px;
+}
+
 /* C O N T A T O */
 .banner-contato {
   background: url("../tzf-theme/img/banner-contato.jpg");
@@ -495,9 +593,6 @@ header nav ul li ul {
 
 .box-contato {
   padding: 50px 0;
-}
-.box-contato form {
-  text-align: right;
 }
 
 .form-control {

@@ -6,24 +6,24 @@
 	<div class="container">
 		<div class="box-index">
 			<div class="col-sm-3">
-				<img src="<?php bloginfo('stylesheet_directory');?>/img/desenvolvimento.png" alt="Imagem Desenvolvimento">
+				<img src="<?php bloginfo('stylesheet_directory');?>/img/icon-home-desenvolvimento.png" alt="Imagem Desenvolvimento">
 				<h4>Desenvolvimento</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nostrum quibusdam, est iste nihil</p>
+				<p>Transforme sua Análise em Diferencial Competitivo dentro do Negócio de sua Empresa, a partir de métodos analíticos focados em produtividade e lucratividade.</p>
 			</div>
 			<div class="col-sm-3">
-				<img src="<?php bloginfo('stylesheet_directory');?>/img/qualidade.png" alt="Imagem Qualidade">
+				<img src="<?php bloginfo('stylesheet_directory');?>/img/icon-home-qualidade.png" alt="Imagem Qualidade">
 				<h4>Qualidade</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nostrum quibusdam, est iste nihil</p>
+				<p>Utilize o SGQ ISO/IEC17025 para assegurar e garantir seus resultados analíticos utilizando as ferramentas e indicadores com foco em redução de custos operacionais.</p>
 			</div>
 			<div class="col-sm-3">
-				<img src="<?php bloginfo('stylesheet_directory');?>/img/treinamento.png" alt="Imagem Treinamento">
+				<img src="<?php bloginfo('stylesheet_directory');?>/img/icon-home-treinamento.png" alt="Imagem Treinamento">
 				<h4>Treinamentos</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nostrum quibusdam, est iste nihil</p>
+				<p>Capacite sua equipe em treinamentos com uma abordagem diferente, aumentando de forma efetiva a eficiência e eficácia do seu Laboratório.</p>
 			</div>
 			<div class="col-sm-3">
-				<img src="<?php bloginfo('stylesheet_directory');?>/img/equipamentos.png" alt="Imagem Equipamentos">
+				<img src="<?php bloginfo('stylesheet_directory');?>/img/icon-home-equipamentos.png" alt="Imagem Equipamentos">
 				<h4>Equipamentos</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur nostrum quibusdam, est iste nihil</p>
+				<p>Dimensione o necessário para superar os desafios diários de seu laboratório adquirindo Alta Tecnologia, Alto Desempenho e Alta Performance com instrumentos da Linha de Espectroscopia.</p>
 			</div>
 		</div>
 	</div><!-- container -->	

@@ -1,0 +1,12 @@
+@mixin page-box-img ($display, $align-items, $justify-content, $margin) {
+	display: $display;
+	align-items: $align-items;
+	justify-content: $justify-content;
+	margin: $margin;
+}
+
+@mixin page-first-p-text ($size, $weight, $text-transform) {
+	font-size: $size;
+	font-weight: $weight;
+	text-transform: $text-transform;
+}

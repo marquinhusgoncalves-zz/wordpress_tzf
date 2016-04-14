@@ -1,1 +1,17 @@
 /* Q U A L I D A D E */
+.qualidade-box-img {
+	@include page-box-img (flex, center, center, 40px 0);
+}
+.qualidade-text {
+	padding: 25px;
+    text-align: justify;
+    p {
+    	margin: 20px 0;
+    }
+	p:nth-child(1) {
+		@include page-first-p-text (20px, 700, uppercase);
+	}
+	ul {
+		margin-left: -25px;
+	}
+}

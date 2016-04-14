@@ -41,8 +41,45 @@ $(document).ready(function() {
 	var elem = document.getElementById("desenvolvimento");
 	if (elem !== null && elem !== undefined) {    
     var elem2 = document.getElementsByClassName("rodape");
-    if (elem2 !== null && elem2 !== undefined && elem2.length > 0) {
-        elem2[0].style.background = "#8dba42";
-    }
-}
+    var elem3 = document.getElementsByClassName("footer-mail");
+    var elem4 = document.getElementsByClassName("btn-default-newsletter");
+	    if (elem2 !== null && elem2 !== undefined && elem2.length > 0) {
+	        elem2[0].style.background = "#8dba42";
+	        elem3[0].style.color = "#8dba42";
+	        elem4[0].style.background = "#8dba42";
+	        elem4[0].style.borderColor = "#8dba42";
+	    }
+	}
+});
+
+// Essa função troca cores de alguns elementos dependendo da página
+$(document).ready(function() {
+	var elem = document.getElementById("qualidade");
+	if (elem !== null && elem !== undefined) {    
+    var elem2 = document.getElementsByClassName("rodape");
+    var elem3 = document.getElementsByClassName("footer-mail");
+    var elem4 = document.getElementsByClassName("btn-default-newsletter");
+	    if (elem2 !== null && elem2 !== undefined && elem2.length > 0) {
+	        elem2[0].style.background = "#f65097";
+	        elem3[0].style.color = "#f65097";
+	        elem4[0].style.background = "#f65097";
+	        elem4[0].style.borderColor = "#f65097";
+	    }
+	}
+});
+
+// Essa função troca cores de alguns elementos dependendo da página
+$(document).ready(function() {
+	var elem = document.getElementById("equipamentos");
+	if (elem !== null && elem !== undefined) {    
+    var elem2 = document.getElementsByClassName("rodape");
+    var elem3 = document.getElementsByClassName("footer-mail");
+    var elem4 = document.getElementsByClassName("btn-default-newsletter");
+	    if (elem2 !== null && elem2 !== undefined && elem2.length > 0) {
+	        elem2[0].style.background = "#ff9200";
+	        elem3[0].style.color = "#ff9200";
+	        elem4[0].style.background = "#ff9200";
+	        elem4[0].style.borderColor = "#ff9200";
+	    }
+	}
 });

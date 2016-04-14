@@ -1,15 +1,15 @@
 /* D E S E N V O L V I M E N T O */
 .desenvolvimento-box-img {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 40px 0;
+	@include page-box-img (flex, center, center, 40px 0);
 }
 .desenvolvimento-text {
+	padding: 25px;
+    text-align: justify;
+    p {
+    	margin: 20px 0;
+    }
 	p:nth-child(1) {
-		font-size: 20px;
-		font-weight: 700;
-		text-transform: uppercase;
+		@include page-first-p-text (20px, 700, uppercase);
 	}
 	p:nth-child(2) {
 		font-weight: 700;
